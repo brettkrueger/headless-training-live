@@ -32,7 +32,7 @@ export default function Page() {
 
       <main className="content">
         <Hero
-          title="Get Started with Atlas"
+          title="training"
           buttonText="Developer Documentation"
           buttonURL="https://developers.wpengine.com/"
           button2Text="Headless on GitHub"
