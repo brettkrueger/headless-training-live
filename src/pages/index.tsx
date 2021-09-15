@@ -32,8 +32,8 @@ export default function Page() {
 
       <main className="content">
         <Hero
-          title="Get Started with Headless"
-          buttonText="Developer Docs"
+          title="Get Started with Atlas"
+          buttonText="Developer Documentation"
           buttonURL="https://developers.wpengine.com/"
           button2Text="Headless on GitHub"
           button2URL="https://github.com/wpengine/faustjs"
