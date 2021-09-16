@@ -41,7 +41,7 @@ export default function Page() {
           id={styles.home_hero}>
           <p>
             WP&nbsp;Engine’s Headless WordPress Framework includes this example
-            project, the{' '}
+            project, the{' '}'
             <a href="https://github.com/wpengine/faustjs#plugin-features">
               headless WordPress plugin
             </a>
