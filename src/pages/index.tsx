@@ -1,7 +1,7 @@
 import { getNextStaticProps } from '@faustjs/next';
 
 import { GetStaticPropsContext } from 'next';
-import Head from 'next/head'; broken_code
+import Head from 'next/head';
 import React from 'react';
 import { CTA, Footer, Header, Hero, Posts } from 'components';
 import styles from 'scss/pages/home.module.scss';
