@@ -52,7 +52,7 @@ export default function Page() {
               <div className={styles.feature}>
                 <h3>Patron of the Arts</h3>
                 <p>
-		  <img src="https://64.media.tumblr.com/66a0da9acf8f0ecfe725267899f5428d/tumblr_ojnr2bjiLO1tm0eroo9_r1_250.gifv" height="250px" weight="350px"/>
+		  <img src="https://64.media.tumblr.com/66a0da9acf8f0ecfe725267899f5428d/tumblr_ojnr2bjiLO1tm0eroo9_r1_250.gifv" height="250px" width="350px"/>
                 </p>
               </div>
 
