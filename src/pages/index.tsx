@@ -19,10 +19,6 @@ export default function Page() {
 
   return (
     <>
-      <Header
-        title={generalSettings.title}
-        description={generalSettings.description}
-      />
 
       <Head>
         <title>
@@ -32,78 +28,38 @@ export default function Page() {
 
       <main className="content">
         <Hero
-          title="Get Started with Headless"
-          buttonText="Developer Docs"
-          buttonURL="https://faustjs.org"
-          button2Text="Headless on GitHub"
-          button2URL="https://github.com/wpengine/faustjs"
-          bgImage="/images/headless_hero_background.jpg"
+          title="Why The Iron Giant Is The Greatest Film Of All Time"
+          bgImage="/images/iron_of_giant.gif"
           id={styles.home_hero}>
           <p>
-            WP&nbsp;Engine’s Headless WordPress Framework includes this example
-            project, the{' '}
-            <a href="https://github.com/wpengine/faustjs#wordpress-plugin">
-              headless WordPress plugin
-            </a>
-            ,{' '}
-            <a href="https://github.com/wpengine/faustjs">headless packages</a>,
-            and{' '}
-            <a href="https://faustjs.org/docs/tutorial/dev-env-setup">
-              tutorials
-            </a>{' '}
-            to make building headless WordPress sites fast and fun.
+	    This is the `Hero` section of the page so naturally we have to talk about the most super. He came to earth with the ability to destroy literally everything and he used his power to become the hero and friend we all needed. Oh, and he also stopped a nuclear winter and was voiced by Vin Diesel. Eat your heart out, Superman.
           </p>
         </Hero>
         <section className={styles.explore}>
           <div className="wrap">
-            <h2>Explore this Example Project</h2>
+            <h2>Examples of the Iron Giant being a total badass</h2>
             <p>
-              This headless example project uses{' '}
-              <a href="https://nextjs.org/">Next.js</a>,{' '}
-              <a href="https://graphql.org/">GraphQL</a>,{' '}
-              <a href="https://gqty.dev">GQty</a> and the{' '}
-              <a href="https://github.com/wpengine/faustjs">
-                WP&nbsp;Engine headless packages
-              </a>{' '}
-              for WordPress integration. Dive in and edit this template at{' '}
-              <code>src/pages/index.tsx</code> or discover more below.
+		The count is innumerable, but here are three crowning achievements of our beloved hero.
             </p>
             <div className={styles.features}>
               <div className={styles.feature}>
-                <h3>Global Styles and Fonts</h3>
+                <h3>He Has Shitloads of Lasers</h3>
                 <p>
-                  Add styles to load on every page, such as typography and
-                  layout rules, in <code>src/scss/main.scss</code>. The project
-                  adds{' '}
-                  <a href="https://necolas.github.io/normalize.css/">
-                    normalize.css
-                  </a>{' '}
-                  in <code>src/pages/_app.tsx</code>. Google Fonts are enqueued
-                  in <code>src/pages/_document.tsx</code>.
+		  <img src="https://thumbs.gfycat.com/AdmirableFrenchDuckbillcat-size_restricted.gif" height="250px" width="350px"/>
                 </p>
               </div>
 
               <div className={styles.feature}>
-                <h3>Components</h3>
+                <h3>Patron of the Arts</h3>
                 <p>
-                  Add or edit components in the <code>src/components</code>{' '}
-                  folder. Find component styles at{' '}
-                  <code>src/scss/components</code>, which use{' '}
-                  <a href="https://nextjs.org/docs/basic-features/built-in-css-support#adding-component-level-css">
-                    CSS modules
-                  </a>{' '}
-                  to scope CSS to each component.
+		  <img src="https://64.media.tumblr.com/66a0da9acf8f0ecfe725267899f5428d/tumblr_ojnr2bjiLO1tm0eroo9_r1_250.gifv" height="250px" weight="350px"/>
                 </p>
               </div>
 
               <div className={styles.feature}>
-                <h3>Hooks</h3>
+                <h3>No Atomo-- Superman</h3>
                 <p>
-                  Fetch data from WordPress with <code>usePost</code>,{' '}
-                  <code>usePosts</code>, <code>useGeneralSettings</code> and
-                  other custom hooks. Use these hooks in your page templates to
-                  pass data to custom components. See{' '}
-                  <code>src/pages/index.tsx</code> for examples.
+		  <img src="https://c.tenor.com/Pxnd-PmN-Z4AAAAC/iron-giant-superman.gif" height="250px" width="350px"/>
                 </p>
               </div>
             </div>
@@ -112,26 +68,12 @@ export default function Page() {
         <Posts
           posts={posts.nodes}
           heading="Latest Posts"
-          intro="The Posts component in src/pages/index.tsx shows the latest six posts from the connected WordPress site."
+          intro="Ramblings about the legend."
           headingLevel="h2"
           postTitleLevel="h3"
           id={styles.post_list}
         />
-        <CTA
-          title="Questions or comments?"
-          buttonText="Join the discussion on GitHub"
-          buttonURL="https://github.com/wpengine/faustjs/discussions"
-          headingLevel="h2">
-          <p>
-            We welcome feature requests, bug reports and questions in the{' '}
-            <a href="https://github.com/wpengine/faustjs">
-              Headless Framework GitHub repository
-            </a>
-            .
-          </p>
-        </CTA>
       </main>
-      <Footer copyrightHolder={generalSettings.title} />
     </>
   );
 }
